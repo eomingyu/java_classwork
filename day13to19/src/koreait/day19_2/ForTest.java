@@ -1,4 +1,4 @@
-package day19_;
+package koreait.day19_2;
 
 import java.util.Scanner;
 

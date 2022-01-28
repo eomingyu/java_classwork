@@ -1,4 +1,4 @@
-package koerait.day17;
+package koreait.day17;
 						//User 클래스는 비교할 수 있는 객체가 된다. Comparator 구현체 없이 비교 가능합니다.
 public class User implements Comparable<User>{
 	private String name;

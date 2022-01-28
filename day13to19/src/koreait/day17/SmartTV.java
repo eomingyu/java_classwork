@@ -1,6 +1,6 @@
-package koerait.day17;
+package koreait.day17;
 
-public class SmartMachine implements RemoteControl, WebSearch {
+public class SmartTV implements RemoteControl, WebSearch {
 	private int volume;
 	private String url;
 	private boolean power;
@@ -29,7 +29,6 @@ public class SmartMachine implements RemoteControl, WebSearch {
 		}
 		this.power = !this.power;
 	}
-
 	@Override
 	public void setVolume(int volume) {
 		if(volume>RemoteControl.MAX_VOLUME)
@@ -39,6 +38,7 @@ public class SmartMachine implements RemoteControl, WebSearch {
 		else
 			this.volume = volume;
 		System.out.println("현재 스마트TV 객체 볼륨은 "+ this.volume);
+		
 	}
 	//getter
 	public String getUrl() {
@@ -50,9 +50,4 @@ public class SmartMachine implements RemoteControl, WebSearch {
 	public boolean isPower() {
 		return power;
 	}
-	@Override
-	public void setBattery() {
-		System.out.println("배터리 필요 없습니다.");
-	}
-	
 }

@@ -1,4 +1,4 @@
-package day8_;
+package koreait.day8_2;
 
 import java.util.Arrays;
 import java.util.Random;

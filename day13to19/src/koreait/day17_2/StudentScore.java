@@ -1,4 +1,4 @@
-package day17_;
+package koreait.day17_2;
 
 public class StudentScore {
 	private int num;

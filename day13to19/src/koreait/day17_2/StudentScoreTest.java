@@ -1,4 +1,4 @@
-package day17_;
+package koreait.day17_2;
 
 import java.text.DecimalFormat;
 import java.util.Random;

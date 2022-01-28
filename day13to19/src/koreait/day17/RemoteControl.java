@@ -1,4 +1,4 @@
-package koerait.day17;
+package koreait.day17;
 
 public interface RemoteControl {
 	//public static final 생략

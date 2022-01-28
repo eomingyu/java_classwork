@@ -1,4 +1,4 @@
-package koerait.day17;
+package koreait.day17;
 
 import java.util.Comparator;
 
